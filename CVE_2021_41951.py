@@ -27,9 +27,7 @@ class POC(BasicPoc):
 
 
 if __name__ == '__main__':
-    # https://128.6.219.131:443, http://3.215.158.78:80, https://188.36.120.197:443
-    # https://52.4.11.189:443, https://35.197.72.9:443, http://54.205.4.109:80, https://35.182.65.35:443
-    target = 'https://128.6.219.131:443'
+    target = 'https://127.0.0.1:443'
     tp = POC()
     result = tp.run(url=target)
     print(f'{target} -> {result}')
